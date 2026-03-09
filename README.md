@@ -102,7 +102,7 @@ This isn't about showing clean code — it's about showing up. Every day. Even w
 
 Building towards: AI/ML Engineering · Currently grinding through Python fundamentals
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tejas-d-jaiprakash)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tejas-d-jaiprakash-084319356/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/Tejas-dj)
 
 ---
