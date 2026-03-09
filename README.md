@@ -48,24 +48,63 @@ These aren't toy programs — they're standalone builds that prove real competen
 ## 📁 Repo Structure
 
 ```
-Python_Grind/
+zero-to-ml-prerequisites/
 ├── README.md
-├── phase_1/              # Core fundamentals — variables, loops, functions, data structures
-│   ├── exercises/        # Daily practice scripts
-│   └── cipher_engine/    # 🏁 Milestone Project 1
-├── phase_2/              # File I/O, regex, error handling, advanced data structures
-│   ├── exercises/
-│   └── playlist_dna/     # 🏁 Milestone Project 2
-├── phase_3/              # OOP, modules, Pythonic patterns
-│   ├── exercises/
-│   └── dungeon_quest/    # 🏁 Milestone Project 3
-├── phase_4/              # APIs, CLI tools, testing, automation
-│   ├── exercises/
-│   └── wiki_rabbit_hole/ # 🏁 Milestone Project 4
-└── phase_5/              # NumPy, Pandas, Matplotlib, math foundations
-    ├── exercises/
-    └── movie_genome/     # 🏁 Milestone Project 5
+├── CS50P_Practice/                          # 📝 130 Post-lecture coding exercises
+│   ├── lecture_0_functions_variables.py     # 15 exercises
+│   ├── lecture_1_conditionals.py            # 13 exercises
+│   ├── lecture_2_loops.py                   # 15 exercises
+│   ├── lecture_3_exceptions.py              # 12 exercises
+│   ├── lecture_4_libraries.py               # 12 exercises
+│   ├── lecture_5_unit_tests.py              # 10 exercises
+│   ├── lecture_6_file_io.py                 # 13 exercises
+│   ├── lecture_7_regex.py                   # 12 exercises
+│   ├── lecture_8_oop.py                     # 13 exercises
+│   └── lecture_9_et_cetera.py               # 15 exercises
+│
+├── learning_phases/                         # 📚 Phase-wise practice & notes
+│   ├── phase_1/                             # Core fundamentals
+│   │   └── exercises/
+│   ├── phase_2/                             # File I/O, regex, error handling
+│   │   └── exercises/
+│   ├── phase_3/                             # OOP, modules, Pythonic patterns
+│   │   └── exercises/
+│   ├── phase_4/                             # APIs, CLI tools, testing
+│   │   └── exercises/
+│   └── phase_5/                             # NumPy, Pandas, Matplotlib
+│       └── exercises/
+│
+├── milestone_1_cipher_engine/               # 🏁 Milestone Project 1
+├── milestone_2_playlist_dna/                # 🏁 Milestone Project 2
+├── milestone_3_dungeon_quest/               # 🏁 Milestone Project 3
+├── milestone_4_wiki_rabbit_hole/            # 🏁 Milestone Project 4
+└── milestone_5_movie_genome/                # 🏁 Milestone Project 5
 ```
+
+---
+
+## 📝 Post-Lecture Exercises (130 Total)
+
+Every CS50P lecture has a matching exercise file with **10-15 coding challenges**. The system:
+
+1. **Watch the lecture** 🎥
+2. **Open the matching exercise file** — solve without looking at the lecture
+3. **Track your score** — each file has a scoreboard at the bottom (✅ or ❌)
+4. **Pass threshold: ~80%** — any ❌ must be retried after 24 hours
+5. **Last exercise in each file is a capstone mini-project** that uses everything from that lecture
+
+| Lecture | Topic                       | Exercises | Pass Threshold |
+| ------- | --------------------------- | --------- | -------------- |
+| 0       | Functions & Variables       | 15        | 12/15          |
+| 1       | Conditionals                | 13        | 10/13          |
+| 2       | Loops                       | 15        | 12/15          |
+| 3       | Exceptions                  | 12        | 10/12          |
+| 4       | Libraries                   | 12        | 10/12          |
+| 5       | Unit Tests                  | 10        | 8/10           |
+| 6       | File I/O                    | 13        | 10/13          |
+| 7       | Regular Expressions         | 12        | 10/12          |
+| 8       | Object-Oriented Programming | 13        | 10/13          |
+| 9       | Et Cetera                   | 15        | 12/15          |
 
 ---
 
