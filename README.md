@@ -1,4 +1,4 @@
-# 🐍 Python Grind — Zero to AIML Ready
+# 🧠 zero-to-ml-prerequisites
 
 **The daily log of my Python journey — from first `print()` to machine learning readiness.**
 
@@ -8,7 +8,7 @@
 
 ## 🎯 What Is This?
 
-This repo is my raw, unfiltered Python learning journal. Every script, every experiment, every mistake — committed daily. No tutorials copy-pasted. No AI-generated code. Just me, VS Code, and the grind.
+This repo is my raw, unfiltered Python learning journal. Every script, every experiment, every mistake — committed daily. No tutorials copy-pasted. No AI-generated code. Just me, VS Code, and the grind to ML readiness.
 
 **Goal:** Go from zero Python to being fully ready for the [Andrew Ng Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction).
 
