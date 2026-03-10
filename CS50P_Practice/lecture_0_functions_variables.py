@@ -17,6 +17,9 @@
 # Expected: input "tejas" → output "Hello, Tejas!" (capitalized)
 
 # YOUR CODE:
+def ex1():
+  name = input(" Type in your name full name:").title().strip()
+  print(f"Hello, {name}, this is the first lesson of CS50P")
 
 
 # ─── EXERCISE 2: String Concatenation ──────────────────────
@@ -25,6 +28,10 @@
 # Expected: first="Tejas", last="Jaiprakash" → "Jaiprakash, Tejas"
 
 # YOUR CODE:
+def ex2():
+  f1_name = input("Type in your first name:").strip().title()
+  f2_name = input("Type in your last name:").strip().title()
+  print(f"hello,{f1_name} {f2_name}, this the question 2")
 
 
 # ─── EXERCISE 3: Type Conversion ───────────────────────────
@@ -34,6 +41,10 @@
 # Hint: you'll need to convert the input to a number.
 
 # YOUR CODE:
+def ex3():
+  x = int(input("Tell us your birth year please: "))
+  print(f"So you are {2026-x} years old right?")
+
 
 
 # ─── EXERCISE 4: Arithmetic Operators ──────────────────────
@@ -44,6 +55,16 @@
 # Format each on its own line like: "5 + 3 = 8"
 
 # YOUR CODE:
+def ex4():
+  x=int(input("enter one number"))
+  y=int(input("enter one number"))
+  print(f"Addition of the nos={x+y}")
+  print(f"Subtraction of the nos={x-y}")
+  print(f"Multiplicaton of the nos={x*y}")
+  print(f"Division of the nos={x/y,}")
+  print(f"{x} to the power of {y}= {x**y}")
+
+
 
 
 # ─── EXERCISE 5: f-strings ─────────────────────────────────
@@ -54,11 +75,18 @@
 # The price must show exactly 2 decimal places.
 
 # YOUR CODE:
+def ex5():
+  item = "coffee"
+  price = 20.50980
+  nos = 33
+  print(f"---------Bill amount---------")
+  print(f"{item}_____{price} x {nos}   ={price*nos:.2f}")
+
 
 
 # ─── EXERCISE 6: String Methods ────────────────────────────
 # Given this string (copy it exactly):
-messy = "   hElLo, WoRLd!   "
+# messy = "   hElLo, WoRLd!   "
 # Print each of these on a separate line:
 # 1. The string with whitespace removed from both ends
 # 2. The string in all lowercase
@@ -67,11 +95,20 @@ messy = "   hElLo, WoRLd!   "
 # 5. The string with "World" replaced by "Python"
 
 # YOUR CODE:
+def ex6():
+  messy = "   hElLo, WoRLd!   "
+  print(messy.strip())
+  print(messy.lower())
+  print(messy.upper())
+  print(messy.title())
+  print(messy.replace("WoRLd", "Pyhton sssssss...."))
+
+
 
 
 # ─── EXERCISE 7: String Slicing ────────────────────────────
 # Given:
-word = "PYTHON"
+# word = "PYTHON"
 # Using ONLY slicing (no loops, no reversed()), print:
 # 1. First 3 characters → "PYT"
 # 2. Last 3 characters → "HON"
@@ -80,6 +117,14 @@ word = "PYTHON"
 # 5. Characters from index 2 to 4 → "THO"
 
 # YOUR CODE:
+def ex7():
+  word = "Python"
+  print(word[:3])
+  print(word[3:])
+  print(word[::2])
+  print(word[5::-1])
+  print(word[2:5])
+
 
 
 # ─── EXERCISE 8: Multiple Assignment ───────────────────────
@@ -200,4 +245,4 @@ word = "PYTHON"
   
   PASS THRESHOLD: 12/15 minimum. All ❌ must be retried.
 ============================================================
-"""
+  """
